@@ -1,0 +1,139 @@
+{
+	"id": "ce78078c-1b76-47b0-85dc-6407555c0957",
+	"name": "HillelAutoSuroviahin",
+	"timestamp": "2022-08-03T11:28:29.383Z",
+	"collection_id": "22474154-de62eac5-72d9-4171-b770-30cde99529a8",
+	"folder_id": 0,
+	"environment_id": "22474154-bcbdc316-40a2-4c70-8b7f-e053a7b128e0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3c7ae7bd-76fb-4eb9-aced-ae2d137bd402",
+			"name": "/auth/signin",
+			"url": "https://qauto.forstudy.space/api/auth/signin",
+			"time": 665,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				665
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "64f18f84-e24b-40d8-9673-e3fc064697e8",
+			"name": "/api/users/profile",
+			"url": "https://qauto.forstudy.space/api/users/profile",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "3b5cc2fa-e5c4-4017-9a75-f0cade81b5d3",
+			"name": "/api/cars",
+			"url": "https://qauto.forstudy.space/api/cars",
+			"time": 77,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b4225e5-7d50-4920-b466-6f91596a4293",
+			"name": "/api/auth/logout",
+			"url": "https://qauto.forstudy.space/api/auth/logout",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 875,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c7ae7bd-76fb-4eb9-aced-ae2d137bd402",
+				"method": "POST"
+			},
+			{
+				"id": "64f18f84-e24b-40d8-9673-e3fc064697e8",
+				"method": "PUT"
+			},
+			{
+				"id": "3b5cc2fa-e5c4-4017-9a75-f0cade81b5d3",
+				"method": "POST"
+			},
+			{
+				"id": "7b4225e5-7d50-4920-b466-6f91596a4293",
+				"method": "GET"
+			}
+		]
+	}
+}
